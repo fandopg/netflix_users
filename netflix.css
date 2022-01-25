@@ -15,6 +15,7 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
+    border: 2px solid white;
 }
 
 .logo {
@@ -26,6 +27,8 @@ main {
     cursor: pointer;
     margin: 15px 50px;
     letter-spacing: 2px;
+    border: 2px solid white;
+
 }
 .size2 {
     font-size: 32px;
@@ -47,12 +50,16 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border: 2px solid white;
+
 }
 .text {
     color: rgb(228, 228, 228);
     font-weight: 400;
     font-size: 50px;
     margin-bottom: 40px;
+    border: 2px solid white;
+
 }
 .cards {
     display: flex;
@@ -60,6 +67,8 @@ main {
     width: 55%;
     margin-bottom: 40px;
     justify-content: space-between;
+    border: 2px solid white;
+
 }
 .profile1 {
     display: flex;
@@ -68,6 +77,8 @@ main {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    border: 2px solid white;
+
 }
 .profile1 img {
     border-radius: 5px;
@@ -79,6 +90,7 @@ main {
     font-size: 18px;
     font-weight: 400;
     margin-top: 10px;
+
 }
 .profile1:hover p{
     color: antiquewhite;
